@@ -4,8 +4,8 @@
     "description": "테스트입니다.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "concurrently \"tsc -w\" \"nodemon ./dist/index.js\""
+        "test": "concurrently \"tsc -w\" \"nodemon ./dist/index.js\"",
+        "start": "sudo concurrently \"tsc -w\" \"sudo nodemon ./dist/index.js\""
     },
     "repository": {
         "type": "git",
